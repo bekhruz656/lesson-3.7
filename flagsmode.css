@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+
+}
+
+nav {
+    height: 80px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+
+.h1header {
+    padding-top: 23px;
+    margin-left: 81px;
+    width: 250px;
+    height: 33px;
+    color: rgb(0, 0, 0);
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.darkmode {
+    margin-top: -6px;
+    margin-left: 1280px;
+    width: 110px;
+    height: 22px;
+    color: rgb(0, 0, 0);
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.moon {
+    cursor: pointer;
+    position: relative;
+    top: -18px;
+    margin-left: 1255px;
+    width: 15px;
+    height: 13.75px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.body {
+    height: 678px;
+    background: rgb(218, 218, 218);
+}
+
+.back {
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 136px;
+    height: 40px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.29);
+    background: rgb(255, 255, 255);
+    border: none;
+    color: rgb(56, 56, 56);
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-align: center;
+}
+
+.shape {
+    margin-left: -120px;
+    cursor: pointer;
+}
+
+.germanydiv {
+    margin-top: 200px;
+    width: 560px;
+    height: 400px;
+}
+
+.germany {
+    margin-top: -100px;
+    margin-left: 185px;
+    width: 100%;
+    height: 400px;
+}
+
+.belgiya {
+    margin-top: -340px;
+    margin-left: 950px;
+    color: rgb(0, 0, 0);
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.pinfo {
+    margin-top: 40px;
+    margin-left: 950px;
+    width: 216px;
+    height: 160px;
+    color: rgb(0, 0, 0);
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}

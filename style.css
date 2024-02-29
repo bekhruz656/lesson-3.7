@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+
+}
+
+nav {
+    height: 80px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(43, 56, 68);
+}
+
+.h1header {
+    padding-top: 23px;
+    margin-left: 81px;
+    width: 250px;
+    height: 33px;
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.darkmode {
+    margin-top: -6px;
+    margin-left: 1280px;
+    width: 110px;
+    height: 22px;
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.moon {
+    cursor: pointer;
+    position: relative;
+    top: -18px;
+    margin-left: 1255px;
+    width: 15px;
+    height: 13.75px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.body {
+    height: 944px;
+    background: rgb(32, 44, 54);
+}
+
+.inputflags {
+    margin-top: 48px;
+    margin-left: 80px;
+    width: 480px;
+    height: 56px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(43, 56, 68);
+    border: none;
+}
+
+.h1search {
+    margin-top: -38px;
+    margin-left: 154px;
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.cards{
+    display: flex;
+}
+
+.card1 {
+    margin-top: 48px;
+    margin-left: 80px;
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.germany {
+    width: 264px;
+    height: 160px;
+    border-start-end-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.h1germany {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 77px;
+    height: 26px;
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.pgermany {
+    margin-top: 16px;
+    margin-left: 24px;
+    width: 162px;
+    height: 16px;
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.pgermany1 {
+    margin-top: 8px;
+    margin-left: 24px;
+    width: 111px;
+    height: 16px;
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.pgermany2 {
+    margin-top: 8px;
+    margin-left: 24px;
+    width: 163px;
+    height: 16px;
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.card2 {
+    margin-top: 48px;
+    margin-left: 80px;
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.america {
+    width: 264px;
+    height: 160px;
+    border-start-end-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.h1america {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 77px;
+    height: 26px;
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.card3 {
+    margin-top: 48px;
+    margin-left: 80px;
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.brazil {
+    width: 264px;
+    height: 160px;
+    border-start-end-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.h1brazil {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 77px;
+    height: 26px;
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.card4 {
+    margin-top: 48px;
+    margin-left: 80px;
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.iceland {
+    width: 264px;
+    height: 160px;
+    border-start-end-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.h1iceland {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 77px;
+    height: 26px;
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.card5 {
+    margin-top: 463px;
+    margin-left: -1295px;
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.afganistan {
+    width: 264px;
+    height: 160px;
+    border-start-end-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.h1afganistan {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 77px;
+    height: 26px;
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.card6 {
+    margin-top: 463px;
+    margin-left: 79px;
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.island {
+    width: 264px;
+    height: 160px;
+    border-start-end-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.h1island {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 157px;
+    height: 26px;
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.card7 {
+    margin-top: 463px;
+    margin-left: 82px;
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.albania {
+    width: 264px;
+    height: 160px;
+    border-start-end-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.h1albania {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 157px;
+    height: 26px;
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.card8 {
+    margin-top: 463px;
+    margin-left: 82px;
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.algeriya {
+    width: 264px;
+    height: 160px;
+    border-start-end-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.h1algeria {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 157px;
+    height: 26px;
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+@media screen and (max-width: 600px) {
+    .cards{
+        flex-wrap: wrap;
+    }
+    .body{
+        height: 2100px;
+    }
+    .h1header {
+        padding-top: 23px;
+        margin-left: 111px;
+        width: 250px;
+        height: 33px;
+        color: rgb(255, 255, 255);
+        font-family: Nunito Sans;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 33px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    .inputflags {
+        padding-top: 40px;
+        margin-top: 48px;
+        margin-left: 68px;
+        width: 300px;
+        height: 46px;
+        border-radius: 5px;
+        box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+        background: rgb(43, 56, 68);
+        border: none;
+    }
+}
+
+/* Media query for screens with a width between 601 and 768 pixels */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+
+}
+
+/* Media query for screens with a width between 769 and 1024 pixels */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+/* Media query for screens with a width between 1025 and 1200 pixels */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+}
+
+/* Media query for screens with a minimum width of 1201 pixels */
+@media screen and (min-width: 1201px) {
+   
+}
